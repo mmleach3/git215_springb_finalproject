@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Snowy Peaks | contact</title>
+    <meta name="author" content="Mellani Leach">
+    <meta name="description" content="Contact form page for Snowy Peaks">
+
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+
+    <!-- Google fonts links -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <!-- stylesheet -->
+
+    <link rel="stylesheet" href="obfuscated.css">
+</head>
+
+<body>
+    <header>
+        <div class="heading">
+            <h1>Snowy Peaks</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="accomodations">Accomodations</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <img src="images/swiss-valley.jpg" alt="Wide open spaces with lush green trees, bright blue sky with fluffy white clouds, large snow capped mountains and a stream running down the middle." width="1440" height="560">
+    </header>
+
+    <!-- I CHOSE LAYOUT 1  -->
+
+    <main>
+
+        <h2>Contact Us</h2>
+        <p>
+            Please reach out to us with any questions or concerns. We are happy to help you plan your dream vacation
+            with us!
+            Required fields marked with an asterisk *
+        </p>
+
+        <img src="images/swiss-sunset.jpg"
+            alt="A small town overlooking a lake, with tall pine trees surrounding it, large mountains in the background, the sunset makes the fluffy clouds an orange yellow color"
+            width="710" height="270">
+
+        <form action="https://wp.zybooks.com/form-viewer.php">
+            <div class="info">
+                <label for="full-name">Full Name<span class="required">*</span></label>
+                <input type="text" name="full-name" id="full-name" required>
+
+                <label for="user-email">Email Address<span class="required">*</span></label>
+                <input type="email" name="user-email" id="user-email" required>
+
+                <label for="phone-number">Phone Number<span class="required">*</span></label>
+                <input type="tel" name="phone-number" id="phone-number" required>
+            </div>
+
+            <div class="comments">
+                <fieldset>
+
+                    <legend>Preferred Method of Contact</legend>
+                    <input type="radio" name="contact-pref" id="pref-email" checked>
+                    <label for="pref-email">Email</label>
+                    <input type="radio" name="contact-pref" id="pref-phone">
+                    <label for="pref-phone">Phone</label>
+
+                </fieldset>
+
+                <label for="user-comments">Comments</label>
+                <textarea name="user-comments" id="user-comments"></textarea>
+
+                <input type="submit" name="my-submit" id="my-submit" value="Submit Form">
+
+            </div>
+        </form>
+
+    </main>
+
+    <!-- Footer  -->
+    <footer>
+        <p>
+            Copyright &copy;2023 Snowy Peaks
+        </p>
+
+        <p>
+            This site is for educational purposes only
+        </p>
+
+    </footer>
+</body>
